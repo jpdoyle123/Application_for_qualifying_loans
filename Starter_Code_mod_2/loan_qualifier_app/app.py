@@ -110,10 +110,11 @@ def save_qualifying_loans(qualifying_loans):
         qualifying_loans (list of lists): The qualifying bank loans.
     """
     # @TODO: Complete the usability dialog for savings the CSV Files.
-    with open('qualifying_loans.csv', 'w', newline='') as file :
+    import csv
+    csvpath = Path("qualifying_loans.csv")
+    with open(csvpath, 'w', newline='') as file :
         writer = csv.writer(file)
-        for row in qualifying_loans:
-            csvwriter.writerow(row)
+        writer.writerows(qualifying_loans)
 
 
 def run():
