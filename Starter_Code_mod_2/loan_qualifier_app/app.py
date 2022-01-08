@@ -1,3 +1,4 @@
+#!/usr/bin/env python3
 # -*- coding: utf-8 -*-
 """Loan Qualifier Application.
 
@@ -109,7 +110,10 @@ def save_qualifying_loans(qualifying_loans):
         qualifying_loans (list of lists): The qualifying bank loans.
     """
     # @TODO: Complete the usability dialog for savings the CSV Files.
-    # YOUR CODE HERE!
+    with open('qualifying_loans.csv', 'w', newline='') as file :
+        writer = csv.writer(file)
+        for row in qualifying_loans:
+            csvwriter.writerow(row)
 
 
 def run():
