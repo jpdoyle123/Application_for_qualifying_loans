@@ -111,10 +111,15 @@ def save_qualifying_loans(qualifying_loans):
     """
     # @TODO: Complete the usability dialog for savings the CSV Files.
     import csv
-    csvpath = Path("qualifying_loans.csv")
-    with open(csvpath, 'w', newline='') as file :
-        writer = csv.writer(file)
-        writer.writerows(qualifying_loans)
+    questionary.confirm("do you want to save your qualifying loans?").ask()
+    if True:
+        csvpath = Path("qualifying_loans.csv")
+        with open(csvpath, 'w', newline='') as file :
+            save_csv = csv.writer(file)
+            save_csv.writerows(qualifying_loans)
+    else:
+        pass
+    questionary.path("where would you like to save your file?").ask()
 
 
 def run():
