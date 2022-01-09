@@ -38,13 +38,14 @@ This section defines the function through which the user defines the path to the
 
 This section is where we defined the function that gathers the clients bank data. Three of the variables are float, and one is integer. Thus, an input of float for credit score will lead to the cessation of the program. 
 
-img width="767" alt="Screen Shot 2022-01-09 at 3 44 17 PM" src="https://user-images.githubusercontent.com/95647683/148700073-2b6f204d-e5f9-4c9b-a663-1ac0c7f17dfb.png">
+<img width="730" alt="Screen Shot 2022-01-09 at 3 41 46 PM" src="https://user-images.githubusercontent.com/95647683/148700287-70b6b9ba-b6e2-40e3-907e-c6618560df30.png">
 
 <img width="717" alt="Screen Shot 2022-01-09 at 3 44 23 PM" src="https://user-images.githubusercontent.com/95647683/148700079-88f8c846-ff5c-4180-a461-256f8d4a9565.png">
 
 This section is where the program calculates the desired statistics, and then matches them to loans in the csv path input from the client. 
 
-img width="627" alt="Screen Shot 2022-01-09 at 3 45 41 PM" src="https://user-images.githubusercontent.com/95647683/148700152-aed93a5d-5c4f-485b-81b5-9f7d6da81a23.png">
+<img width="627" alt="Screen Shot 2022-01-09 at 3 45 41 PM" src="https://user-images.githubusercontent.com/95647683/148700491-e2ec862b-56df-4cf2-ac02-64c004b7f541.png">
+
 
 This is where the user is prompted with a confirm.ask() as to whether they would like to save their qualifying loans to a csv. If yes, they are prompted to enter a path for their desired output csv. 
 
