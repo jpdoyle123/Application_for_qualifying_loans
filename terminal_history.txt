@@ -1,0 +1,120 @@
+   50  python 3 --version
+   51  python3 --version
+   52  conda deactivate
+   53  conda create -n "myenv" python=3.9.7
+   54  conda activate myenv
+   55  python --version
+   56  python3 --version
+   57  /Users/jackdoyle/opt/anaconda3/bin/python "/Users/jackdoyle/Desktop/FINTECH BOOTCAMP/Module_2_Challenge/Starter_Code_mod_2/loan_qualifier_app/app.py"
+   58  source /Users/jackdoyle/opt/anaconda3/bin/activate
+   59  conda activate base
+   60  /Users/jackdoyle/opt/anaconda3/bin/python "/Users/jackdoyle/Desktop/FINTECH BOOTCAMP/Module_2_Challenge/Starter_Code_mod_2/loan_qualifier_app/app.py"
+   61  conda activate myenv
+   62  python3 --version
+   63  ls
+   64  cd Starter_Code_mod_2
+   65  ls
+   66  cd loan_qualifier_app
+   67  ls
+   68  python3 app.py
+   69  conda install fire
+   70  conda install questionary
+   71  python3 app.py
+   72  /Users/jackdoyle/opt/anaconda3/bin/python "/Users/jackdoyle/Desktop/FINTECH BOOTCAMP/Module_2_Challenge/Starter_Code_mod_2/loan_qualifier_app/app.py"
+   73  conda activate base
+   74  git confid --global user.name John Doyle
+   75  git config --global user.name John Doyle
+   76  git config --global user.email jpdoyle1999@gwu.edu
+   77  git config --list
+   78  git clone https://github.com/jpdoyle123/Module_2_Challenge.git
+   79  cd Desktop
+   80  cd FINTECH\ BOOTCAMP
+   81  git clone https://github.com/jpdoyle123/Module_2_Challenge.git
+   82  git clone https://github.com/jpdoyle123/Module_2_Challenge.git
+   83  conda install fire
+   84  conda activate dev
+   85  conda install fire
+   86  conda install questionary
+   87  git status
+   88  ls
+   89  cd Module_2_Challenge
+   90  git status
+   91  git add Starter_Code_mod_2
+   92  git status
+   93  git commit -m
+   94  git commit -m "editing app.py"
+   95  git push
+   96  git push
+   97  git push
+   98  git push
+   99  git status
+  100  git push
+  101  git config --list
+  102  git push
+  103  git push
+  104  git commit -a
+  105  git push
+  106  git push
+  107  git status
+  108  git status
+  109  git add Starter_Code_mod_2
+  110  git status
+  111  git commit -m "csv save functionality"
+  112  git push
+  113  ls
+  114  git status
+  115  git add Starter_Code_mod_2
+  116  git commit -m "Finished product"
+  117  git push
+  118  git status
+  119  git add Starter_Code_mod_2
+  120  git commit -m "Finished"
+  121  git push
+  122  git pull
+  123  cd Desktop
+  124  cd FIN
+  125  cd FINTECH\ BOOTCAMP
+  126  ls
+  127  cd Module_2_Challenge
+  128  git status
+  129  git pull
+  130  git update-ref -d MERGE_HEAD
+  131  git pull
+  132  git config pull.rebase false
+  133  git pull
+  134  git push
+  135  git push --help
+  136  git pull
+  137  cd Desktop
+  138  cd FINTECH\ BOOTCAMP
+  139  cd Module_2_Challenge
+  140  git status
+  141  git commit
+  142  cd Desktop
+  143  cd FINTECH\ BOOTCAMP
+  144  cd Module_2_Challenge
+  145  git status
+  146  git restore --staged Starter_Code_mod_2
+  147  git commit -m
+  148  git commit -m ""
+  149  git add Starter_Code_mod_2/loan_qualifier_app/README.md
+  150  git commit -m ""
+  151  git commit -m "README"
+  152  git push
+  153  git pull
+  154  cd Desktop
+  155  cd FIN
+  156  cd FINTECH\ BOOTCAMP
+  157  cd Module_2_Challenge
+  158  git status
+  159  git pull
+  160  git commit -m "idk"
+  161  git pull
+  162  cd Desktop
+  163  cd FINTECH\ BOOTCAMP
+  164  cd Module_2_Challenge
+  165  git fetch --all
+  166  git status
+  167  git reset --hard origin/master
+  168  git reset --hard origin
+  169  git status
